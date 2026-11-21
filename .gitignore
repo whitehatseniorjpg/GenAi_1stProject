@@ -21,3 +21,31 @@ __pycache__/
 # System files
 .DS_Store
 Thumbs.db
+# Virtual environments
+venv/
+.venv/
+**/venv/
+**/.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# IDE and system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Model checkpoints and training outputs
+**/checkpoint-*/
+**/llm_decoder_model/
+**/llm_encoder_model/
+
+# Dataset cache
+.cache/
